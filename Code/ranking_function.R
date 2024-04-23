@@ -3,7 +3,7 @@
 
 # Please take a look at elo_ets before
 elo_c <- function(numplay, numrow, white1, white2, black1, black2, score, cdevsteams,
-                     cratsteams,dscore = double(2*numplay),weights,ntourn) { # Capire perchè 2*np
+                     cratsteams,dscore = double(2*numplay),weights,ntourn) { 
   escore <- numeric(numplay)
   ascore <- numeric(numplay)
   escorek <- 0
@@ -309,7 +309,7 @@ from_csv_to_glicko <- function(file, year, month, day , mixed = F){
 }
 
 glicko_c <- function(numplay, numrow, white1, white2, black1, black2, score, cdevsteams,
-                     cratsteams,dscore = double(2*numplay),weights,bval) { # Capire perchè 2*np
+                     cratsteams,dscore = double(2*numplay),weights,bval) { 
   escore <- numeric(numplay)
   ascore <- numeric(numplay)
   dval <- numeric(numplay)
@@ -517,7 +517,7 @@ glicko_ets <- function(x, status = NULL,rdmax = 200, cval = 16, whichtourn = 0, 
     
     dscores <- glicko_c(numplay = np, numrow = nr, white1 = traini$Giocatore1, white2 = traini$Giocatore2,
                         black1 = traini$Giocatore3,black2 = traini$Giocatore4, score = traini$Score,
-                        cdevsteams = cdevsteams, cratsteams =  cratsteams,weights=traini$Weight, bval = 1/20)
+                        cdevsteams = cdevsteams, cratsteams =  cratsteams,weights=traini$Weight, bval = 1/20) # bval is the drift
     
     cdscores <- dscores[[1]][playi]
     cdval <- dscores[[1]][(np + 1):(2 * np)][playi] # 1/d^2
@@ -525,7 +525,9 @@ glicko_ets <- function(x, status = NULL,rdmax = 200, cval = 16, whichtourn = 0, 
     l1t <- dscores[[3]][playi]
     names(ascore) <- names(cdval) <- names(cdscores) <- giocatori[playi]
     # Updates rating and deviation
-    curupt <- qv/(1/cdevs[playi]^2+ cdval) * cdscores + lambda * l1t/ngamesi[playi]
+    # lambda measure how much the category should influence the rating
+    # NOTE THAT IF THERE IS ONLY ONE CATEGORY (No differentation between Pro/contender/advanced) LAMBDA SHALL BE SET TO 0
+    curupt <- qv/(1/cdevs[playi]^2+ cdval) * cdscores + lambda * l1t/ngamesi[playi] 
     crats[playi] <- crats[playi] + curupt 
     
     cdevs[playi] <- sqrt((1/cdevs[playi]^2 + cdval)^(-1))
