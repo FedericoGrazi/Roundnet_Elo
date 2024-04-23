@@ -1,0 +1,121 @@
+Stage,Division,Group/Bracket,Round,Match format,Team A,Team B,Winning team,Game 1 - Score team A,Game 1 - Score team B,Game 2 - Score team A,Game 2 - Score team B,Game 3 - Score team A,Game 3 - Score team B,Team A - Player 1,Team A - Player 2,Team B - Player 1,Team B - Player 2
+Group Stage,Open,Group A,1,Single game,RCB Borsello,Pefforza,RCB Borsello,21,15,,,,,Luca Tosatti,Andrea Borsotti,Luca Leoni,Giovanni Messina
+Group Stage,Open,Group A,1,Single game,RCBorsotti tifiamo per te,RCB Adeschiamo donne dal 1847,RCBorsotti tifiamo per te,21,16,,,,,Tobia Sermenghi,Mattia Pareschi,Tommaso Marzocchi,Federico Grazi
+Group Stage,Open,Group B,1,Single game,È official,CR7 & ME$$I,È official,21,10,,,,,Alessandro Zanellato,Dario Filippi,omar zeni,fulvs
+Group Stage,Open,Group B,1,Single game,Ciò che desidera tua mamma,RCB tedesco,Ciò che desidera tua mamma,21,12,,,,,Andrea Piccirillo,Matteo Sacchini,Pierre Bechtloff,Giovanni Calvi
+Group Stage,Open,Group C,1,Single game,Nunu e Willump,DEVÀSTUC,Nunu e Willump,21,11,,,,,Marco Bortoloso,riccardo mercadini,Sebastiano Guerra,Andrea De valiere
+Group Stage,Open,Group C,1,Single game,RCB i Bazzani,RCB Macaroni Drop,RCB i Bazzani,21,12,,,,,Chiara Pernigo,Jacopo Dudine,Davide Greco,Jannik Tiemann
+Group Stage,Open,Group D,1,Single game,TBD,Chicago fools,TBD,21,3,,,,,Nicola Bazzani,Matteo Molli,Alan Saggiorato,Alberto Amato
+Group Stage,Open,Group D,1,Single game,Jean Jacques Rousseau,Mattia Marco,Jean Jacques Rousseau,21,15,,,,,Giacomo Merlin,Gianluca Sartin,Marco Gatta,Mattia Bazzani
+Group Stage,Open,Group A,2,Single game,RCB Borsello,RCB Adeschiamo donne dal 1847,RCB Borsello,21,12,,,,,Luca Tosatti,Andrea Borsotti,Tommaso Marzocchi,Federico Grazi
+Group Stage,Open,Group A,2,Single game,RCBorsotti tifiamo per te,Pefforza,RCBorsotti tifiamo per te,21,17,,,,,Tobia Sermenghi,Mattia Pareschi,Luca Leoni,Giovanni Messina
+Group Stage,Open,Group B,2,Single game,È official,RCB tedesco,È official,21,10,,,,,Alessandro Zanellato,Dario Filippi,Pierre Bechtloff,Giovanni Calvi
+Group Stage,Open,Group B,2,Single game,Ciò che desidera tua mamma,CR7 & ME$$I,Ciò che desidera tua mamma,21,14,,,,,Andrea Piccirillo,Matteo Sacchini,omar zeni,fulvs
+Group Stage,Open,Group C,2,Single game,Nunu e Willump,RCB Macaroni Drop,Nunu e Willump,21,17,,,,,Marco Bortoloso,riccardo mercadini,Davide Greco,Jannik Tiemann
+Group Stage,Open,Group C,2,Single game,RCB i Bazzani,DEVÀSTUC,RCB i Bazzani,21,7,,,,,Chiara Pernigo,Jacopo Dudine,Sebastiano Guerra,Andrea De valiere
+Group Stage,Open,Group D,2,Single game,TBD,Mattia Marco,TBD,21,13,,,,,Nicola Bazzani,Matteo Molli,Marco Gatta,Mattia Bazzani
+Group Stage,Open,Group D,2,Single game,Jean Jacques Rousseau,Chicago fools,Jean Jacques Rousseau,21,11,,,,,Giacomo Merlin,Gianluca Sartin,Alan Saggiorato,Alberto Amato
+Group Stage,Open,Group A,3,Single game,RCB Borsello,RCBorsotti tifiamo per te,RCB Borsello,21,19,,,,,Luca Tosatti,Andrea Borsotti,Tobia Sermenghi,Mattia Pareschi
+Group Stage,Open,Group A,3,Single game,RCB Adeschiamo donne dal 1847,Pefforza,RCB Adeschiamo donne dal 1847,21,19,,,,,Tommaso Marzocchi,Federico Grazi,Luca Leoni,Giovanni Messina
+Group Stage,Open,Group B,3,Single game,È official,Ciò che desidera tua mamma,È official,21,17,,,,,Alessandro Zanellato,Dario Filippi,Andrea Piccirillo,Matteo Sacchini
+Group Stage,Open,Group B,3,Single game,RCB tedesco,CR7 & ME$$I,RCB tedesco,21,14,,,,,Pierre Bechtloff,Giovanni Calvi,omar zeni,fulvs
+Group Stage,Open,Group C,3,Single game,Nunu e Willump,RCB i Bazzani,Nunu e Willump,21,17,,,,,Marco Bortoloso,riccardo mercadini,Chiara Pernigo,Jacopo Dudine
+Group Stage,Open,Group C,3,Single game,RCB Macaroni Drop,DEVÀSTUC,RCB Macaroni Drop,24,22,,,,,Davide Greco,Jannik Tiemann,Sebastiano Guerra,Andrea De valiere
+Group Stage,Open,Group D,3,Single game,TBD,Jean Jacques Rousseau,TBD,21,19,,,,,Nicola Bazzani,Matteo Molli,Giacomo Merlin,Gianluca Sartin
+Group Stage,Open,Group D,3,Single game,Mattia Marco,Chicago fools,Mattia Marco,21,6,,,,,Marco Gatta,Mattia Bazzani,Alan Saggiorato,Alberto Amato
+Bracket Stage,Open,Bracket A,Round of 16,Best of 3,TBD,Chicago fools,TBD,15,3,15,7,,,Nicola Bazzani,Matteo Molli,Alan Saggiorato,Alberto Amato
+Bracket Stage,Open,Bracket A,Round of 16,Best of 3,È official,DEVÀSTUC,È official,15,10,15,10,,,Alessandro Zanellato,Dario Filippi,Sebastiano Guerra,Andrea De valiere
+Bracket Stage,Open,Bracket A,Round of 16,Best of 3,Nunu e Willump,CR7 & ME$$I,Nunu e Willump,15,8,15,11,,,Marco Bortoloso,riccardo mercadini,omar zeni,fulvs
+Bracket Stage,Open,Bracket A,Round of 16,Best of 3,RCB Borsello,Pefforza,RCB Borsello,15,12,10,15,15,4,Luca Tosatti,Andrea Borsotti,Luca Leoni,Giovanni Messina
+Bracket Stage,Open,Bracket A,Round of 16,Best of 3,RCB i Bazzani,RCB tedesco,RCB i Bazzani,15,8,15,9,,,Chiara Pernigo,Jacopo Dudine,Pierre Bechtloff,Giovanni Calvi
+Bracket Stage,Open,Bracket A,Round of 16,Best of 3,Jean Jacques Rousseau,RCB Adeschiamo donne dal 1847,Jean Jacques Rousseau,25,23,15,9,,,Giacomo Merlin,Gianluca Sartin,Tommaso Marzocchi,Federico Grazi
+Bracket Stage,Open,Bracket A,Round of 16,Best of 3,Ciò che desidera tua mamma,RCB Macaroni Drop,Ciò che desidera tua mamma,15,12,15,12,,,Andrea Piccirillo,Matteo Sacchini,Davide Greco,Jannik Tiemann
+Bracket Stage,Open,Bracket A,Round of 16,Best of 3,RCBorsotti tifiamo per te,Mattia Marco,RCBorsotti tifiamo per te,15,10,15,10,,,Tobia Sermenghi,Mattia Pareschi,Marco Gatta,Mattia Bazzani
+Bracket Stage,Open,Bracket A,Quarter-final,Best of 3,TBD,RCBorsotti tifiamo per te,TBD,18,21,21,18,21,17,Nicola Bazzani,Matteo Molli,Tobia Sermenghi,Mattia Pareschi
+Bracket Stage,Open,Bracket A,Quarter-final,Best of 3,È official,Ciò che desidera tua mamma,È official,21,16,21,19,,,Alessandro Zanellato,Dario Filippi,Andrea Piccirillo,Matteo Sacchini
+Bracket Stage,Open,Bracket A,Quarter-final,Best of 3,Nunu e Willump,Jean Jacques Rousseau,Jean Jacques Rousseau,21,18,18,21,19,21,Marco Bortoloso,riccardo mercadini,Giacomo Merlin,Gianluca Sartin
+Bracket Stage,Open,Bracket A,Quarter-final,Best of 3,RCB Borsello,RCB i Bazzani,RCB Borsello,21,17,19,21,21,19,Luca Tosatti,Andrea Borsotti,Chiara Pernigo,Jacopo Dudine
+Bracket Stage,Open,Bracket A,P9: Quarter-final,Best of 3,Mattia Marco,Chicago fools,Mattia Marco,15,8,15,8,,,Marco Gatta,Mattia Bazzani,Alan Saggiorato,Alberto Amato
+Bracket Stage,Open,Bracket A,P9: Quarter-final,Best of 3,RCB Macaroni Drop,DEVÀSTUC,DEVÀSTUC,11,15,22,24,,,Davide Greco,Jannik Tiemann,Sebastiano Guerra,Andrea De valiere
+Bracket Stage,Open,Bracket A,P9: Quarter-final,Best of 3,RCB Adeschiamo donne dal 1847,CR7 & ME$$I,RCB Adeschiamo donne dal 1847,15,12,15,10,,,Tommaso Marzocchi,Federico Grazi,omar zeni,fulvs
+Bracket Stage,Open,Bracket A,P9: Quarter-final,Best of 3,RCB tedesco,Pefforza,Pefforza,13,15,10,15,,,Pierre Bechtloff,Giovanni Calvi,Luca Leoni,Giovanni Messina
+Bracket Stage,Open,Bracket A,Semi-final,Best of 3,TBD,RCB Borsello,TBD,21,15,21,17,,,Nicola Bazzani,Matteo Molli,Luca Tosatti,Andrea Borsotti
+Bracket Stage,Open,Bracket A,Semi-final,Best of 3,È official,Jean Jacques Rousseau,È official,21,13,21,14,,,Alessandro Zanellato,Dario Filippi,Giacomo Merlin,Gianluca Sartin
+Bracket Stage,Open,Bracket A,P5: Semi-final,Best of 3,RCB i Bazzani,RCBorsotti tifiamo per te,RCB i Bazzani,26,28,21,19,21,15,Chiara Pernigo,Jacopo Dudine,Tobia Sermenghi,Mattia Pareschi
+Bracket Stage,Open,Bracket A,P5: Semi-final,Best of 3,Nunu e Willump,Ciò che desidera tua mamma,Nunu e Willump,12,15,15,10,15,13,Marco Bortoloso,riccardo mercadini,Andrea Piccirillo,Matteo Sacchini
+Bracket Stage,Open,Bracket A,P9: Semi-final,Best of 3,Mattia Marco,Pefforza,Mattia Marco,16,14,15,7,,,Marco Gatta,Mattia Bazzani,Luca Leoni,Giovanni Messina
+Bracket Stage,Open,Bracket A,P9: Semi-final,Best of 3,DEVÀSTUC,RCB Adeschiamo donne dal 1847,RCB Adeschiamo donne dal 1847,10,15,11,15,,,Sebastiano Guerra,Andrea De valiere,Tommaso Marzocchi,Federico Grazi
+Bracket Stage,Open,Bracket A,P13: Semi-final,Best of 3,RCB tedesco,Chicago fools,RCB tedesco,15,11,15,12,,,Pierre Bechtloff,Giovanni Calvi,Alan Saggiorato,Alberto Amato
+Bracket Stage,Open,Bracket A,P13: Semi-final,Best of 3,CR7 & ME$$I,RCB Macaroni Drop,RCB Macaroni Drop,17,21,19,21,,,omar zeni,fulvs,Davide Greco,Jannik Tiemann
+Bracket Stage,Open,Bracket A,Final,Best of 3,TBD,È official,TBD,21,16,21,19,,,Nicola Bazzani,Matteo Molli,Alessandro Zanellato,Dario Filippi
+Bracket Stage,Open,Bracket A,P3: Final,Single game,Jean Jacques Rousseau,RCB Borsello,RCB Borsello,0,1,,,,,Giacomo Merlin,Gianluca Sartin,Luca Tosatti,Andrea Borsotti
+Bracket Stage,Open,Bracket A,P5: Final,Single game,RCB i Bazzani,Nunu e Willump,RCB i Bazzani,21,7,,,,,Chiara Pernigo,Jacopo Dudine,Marco Bortoloso,riccardo mercadini
+Bracket Stage,Open,Bracket A,P7: Final,Single game,Ciò che desidera tua mamma,RCBorsotti tifiamo per te,Ciò che desidera tua mamma,21,17,,,,,Andrea Piccirillo,Matteo Sacchini,Tobia Sermenghi,Mattia Pareschi
+Bracket Stage,Open,Bracket A,P9: Final,Best of 3,Mattia Marco,RCB Adeschiamo donne dal 1847,RCB Adeschiamo donne dal 1847,11,15,10,15,,,Marco Gatta,Mattia Bazzani,Tommaso Marzocchi,Federico Grazi
+Bracket Stage,Open,Bracket A,P11: Final,Single game,DEVÀSTUC,Pefforza,Pefforza,14,15,,,,,Sebastiano Guerra,Andrea De valiere,Luca Leoni,Giovanni Messina
+Bracket Stage,Open,Bracket A,P13: Final,Best of 3,RCB tedesco,RCB Macaroni Drop,RCB Macaroni Drop,11,15,13,15,,,Pierre Bechtloff,Giovanni Calvi,Davide Greco,Jannik Tiemann
+Bracket Stage,Open,Bracket A,P15: Final,Best of 3,CR7 & ME$$I,Chicago fools,CR7 & ME$$I,15,12,20,18,,,Tommaso Marzocchi,fulvs,Alan Saggiorato,Alberto Amato
+Group Stage,Mixed,Group A,1,Single game,No Marty no party,*nome_superfico*,No Marty no party,21,6,,,,,Veronica Specchia,Nicola Bazzani,Giuditta Bacchi Reggiani,Davide Greco
+Group Stage,Mixed,Group A,1,Single game,Sto giro Picci non mi ha paccato,coco pops,Sto giro Picci non mi ha paccato,21,13,,,,,Andrea Piccirillo,Chiara Pernigo,Matteo Molli,francesca falabella
+Group Stage,Mixed,Group B,1,Single game,Irene e lo straniero,Daje Padova,Irene e lo straniero,21,7,,,,,Irene Stranieri,Jacopo Dudine,Luca Colzi,teresa leuratti
+"Group Stage,Mixed,Group B,1,Single game,""RCB Chipi Chipi Chapa Chapa Dubi Dubi "",Sbam,""RCB Chipi Chipi Chapa Chapa Dubi Dubi "",21,16,,,,,Federico Grazi,Nicole Biondini,Marianne Ferragina,Luca Tosatti"
+Group Stage,Mixed,Group C,1,Single game,TBA,TFS,TBA,21,9,,,,,Martina Melchionda,Andrea Borsotti,Linda Ruffilli,Vittorio Rossi
+Group Stage,Mixed,Group C,1,Single game,Un sacco di paura,Bombetta's,Un sacco di paura,21,9,,,,,Matteo Sacchini,Alessia Del Pioluogo,Stefano Marcuzzo,Martina Corea
+"Group Stage,Mixed,Group D,1,Single game,""RCBorsotti's Groupies "",Spikings,""RCBorsotti's Groupies "",21,3,,,,,fabia canu,Mattia Pareschi,Mateo Loshi,Philine Smidt"
+"Group Stage,Mixed,Group D,1,Single game,RCB Aksel Viren,""POCHESKILLTANTAPASSIONE "",RCB Aksel Viren,21,5,,,,,Tobia Sermenghi,Angela Augello,Sofia Tropea,Andrea De valiere"
+Group Stage,Mixed,Group A,2,Single game,No Marty no party,coco pops,No Marty no party,21,12,,,,,Veronica Specchia,Nicola Bazzani,Matteo Molli,francesca falabella
+Group Stage,Mixed,Group A,2,Single game,Sto giro Picci non mi ha paccato,*nome_superfico*,Sto giro Picci non mi ha paccato,21,13,,,,,Andrea Piccirillo,Chiara Pernigo,Giuditta Bacchi Reggiani,Davide Greco
+Group Stage,Mixed,Group B,2,Single game,Irene e lo straniero,Sbam,Irene e lo straniero,21,19,,,,,Irene Stranieri,Jacopo Dudine,Marianne Ferragina,Luca Tosatti
+"Group Stage,Mixed,Group B,2,Single game,""RCB Chipi Chipi Chapa Chapa Dubi Dubi "",Daje Padova,""RCB Chipi Chipi Chapa Chapa Dubi Dubi "",21,8,,,,,Federico Grazi,Nicole Biondini,Luca Colzi,teresa leuratti"
+Group Stage,Mixed,Group C,2,Single game,TBA,Bombetta's,TBA,21,4,,,,,Martina Melchionda,Andrea Borsotti,Stefano Marcuzzo,Martina Corea
+Group Stage,Mixed,Group C,2,Single game,RCB Nanen,TFS,RCB Nanen,21,12,,,,,Tommaso Marzocchi,Laura Lucchiari,Linda Ruffilli,Vittorio Rossi
+"Group Stage,Mixed,Group D,2,Single game,""RCBorsotti's Groupies "",""POCHESKILLTANTAPASSIONE "",""RCBorsotti's Groupies "",21,8,,,,,fabia canu,Mattia Pareschi,Sofia Tropea,Andrea De valiere"
+Group Stage,Mixed,Group D,2,Single game,I Pesetti,Spikings,I Pesetti,21,6,,,,,Francesco Mezzetti,Amanda Y. Pesenti,Mateo Loshi,Philine Smidt
+Group Stage,Mixed,Group A,3,Single game,No Marty no party,Sto giro Picci non mi ha paccato,No Marty no party,21,14,,,,,Veronica Specchia,Nicola Bazzani,Andrea Piccirillo,Chiara Pernigo
+Group Stage,Mixed,Group A,3,Single game,coco pops,*nome_superfico*,coco pops,21,12,,,,,Matteo Molli,francesca falabella,Giuditta Bacchi Reggiani,Davide Greco
+"Group Stage,Mixed,Group B,3,Single game,Irene e lo straniero,""RCB Chipi Chipi Chapa Chapa Dubi Dubi "",Irene e lo straniero,21,16,,,,,Irene Stranieri,Jacopo Dudine,Federico Grazi,Nicole Biondini"
+Group Stage,Mixed,Group B,3,Single game,Sbam,Daje Padova,Sbam,21,8,,,,,Marianne Ferragina,Luca Tosatti,Luca Colzi,teresa leuratti
+Group Stage,Mixed,Group C,3,Single game,TBA,RCB Nanen,TBA,21,13,,,,,Martina Melchionda,Andrea Borsotti,Tommaso Marzocchi,Laura Lucchiari
+Group Stage,Mixed,Group C,3,Single game,Un sacco di paura,TFS,Un sacco di paura,21,19,,,,,Matteo Sacchini,Alessia Del Pioluogo,Linda Ruffilli,Vittorio Rossi
+"Group Stage,Mixed,Group D,3,Single game,""RCBorsotti's Groupies "",I Pesetti,""RCBorsotti's Groupies "",23,21,,,,,fabia canu,Mattia Pareschi,Francesco Mezzetti,Amanda Y. Pesenti"
+Group Stage,Mixed,Group D,3,Single game,RCB Aksel Viren,Spikings,RCB Aksel Viren,21,5,,,,,Tobia Sermenghi,Angela Augello,Mateo Loshi,Philine Smidt
+Group Stage,Mixed,Group C,4,Single game,Un sacco di paura,RCB Nanen,Un sacco di paura,21,7,,,,,Matteo Sacchini,Alessia Del Pioluogo,Tommaso Marzocchi,Laura Lucchiari
+Group Stage,Mixed,Group C,4,Single game,Bombetta's,TFS,TFS,17,21,,,,,Stefano Marcuzzo,Martina Corea,Linda Ruffilli,Vittorio Rossi
+Group Stage,Mixed,Group D,4,Single game,RCB Aksel Viren,I Pesetti,RCB Aksel Viren,25,24,,,,,Tobia Sermenghi,Angela Augello,Francesco Mezzetti,Amanda Y. Pesenti
+"Group Stage,Mixed,Group D,4,Single game,""POCHESKILLTANTAPASSIONE "",Spikings,""POCHESKILLTANTAPASSIONE "",21,12,,,,,Sofia Tropea,Andrea De valiere,Mateo Loshi,Philine Smidt"
+Group Stage,Mixed,Group C,5,Single game,TBA,Un sacco di paura,TBA,21,14,,,,,Martina Melchionda,Andrea Borsotti,Matteo Sacchini,Alessia Del Pioluogo
+Group Stage,Mixed,Group C,5,Single game,RCB Nanen,Bombetta's,RCB Nanen,21,10,,,,,Tommaso Marzocchi,Laura Lucchiari,Stefano Marcuzzo,Martina Corea
+"Group Stage,Mixed,Group D,5,Single game,""RCBorsotti's Groupies "",RCB Aksel Viren,""RCBorsotti's Groupies "",21,18,,,,,fabia canu,Mattia Pareschi,Tobia Sermenghi,Angela Augello"
+"Group Stage,Mixed,Group D,5,Single game,I Pesetti,""POCHESKILLTANTAPASSIONE "",I Pesetti,21,11,,,,,Francesco Mezzetti,Amanda Y. Pesenti,Sofia Tropea,Andrea De valiere"
+Bracket Stage,Mixed,Bracket A,Round of 16,Single game,No Marty no party,Daje Padova,No Marty no party,15,7,,,,,Veronica Specchia,Nicola Bazzani,Luca Colzi,teresa leuratti
+"Bracket Stage,Mixed,Bracket A,Round of 16,Single game,TBA,""POCHESKILLTANTAPASSIONE "",TBA,2,0,,,,,Martina Melchionda,Andrea Borsotti,Sofia Tropea,Andrea De valiere"
+Bracket Stage,Mixed,Bracket A,Round of 16,Single game,Irene e lo straniero,*nome_superfico*,Irene e lo straniero,15,7,,,,,Irene Stranieri,Jacopo Dudine,Giuditta Bacchi Reggiani,Davide Greco
+"Bracket Stage,Mixed,Bracket A,Round of 16,Single game,""RCBorsotti's Groupies "",TFS,""RCBorsotti's Groupies "",15,9,,,,,fabia canu,Mattia Pareschi,Linda Ruffilli,Vittorio Rossi"
+Bracket Stage,Mixed,Bracket A,Round of 16,Single game,RCB Aksel Viren,RCB Nanen,RCB Aksel Viren,15,13,,,,,Tobia Sermenghi,Angela Augello,Tommaso Marzocchi,Laura Lucchiari
+"Bracket Stage,Mixed,Bracket A,Round of 16,Single game,""RCB Chipi Chipi Chapa Chapa Dubi Dubi "",coco pops,""RCB Chipi Chipi Chapa Chapa Dubi Dubi "",15,13,,,,,Federico Grazi,Nicole Biondini,Matteo Molli,francesca falabella"
+Bracket Stage,Mixed,Bracket A,Round of 16,Single game,Un sacco di paura,Sbam,Un sacco di paura,2,0,,,,,Matteo Sacchini,Alessia Del Pioluogo,Marianne Ferragina,Luca Tosatti
+Bracket Stage,Mixed,Bracket A,Round of 16,Single game,Sto giro Picci non mi ha paccato,I Pesetti,Sto giro Picci non mi ha paccato,15,10,,,,,Andrea Piccirillo,Chiara Pernigo,Francesco Mezzetti,Amanda Y. Pesenti
+Bracket Stage,Mixed,Bracket A,Quarter-final,Best of 3,No Marty no party,Sto giro Picci non mi ha paccato,No Marty no party,24,22,21,18,,,Veronica Specchia,Nicola Bazzani,Andrea Piccirillo,Chiara Pernigo
+Bracket Stage,Mixed,Bracket A,Quarter-final,Best of 3,TBA,Un sacco di paura,TBA,22,20,21,13,,,Martina Melchionda,Andrea Borsotti,Matteo Sacchini,Alessia Del Pioluogo
+"Bracket Stage,Mixed,Bracket A,Quarter-final,Best of 3,Irene e lo straniero,""RCB Chipi Chipi Chapa Chapa Dubi Dubi "",Irene e lo straniero,21,17,21,18,,,Irene Stranieri,Jacopo Dudine,Federico Grazi,Nicole Biondini"
+"Bracket Stage,Mixed,Bracket A,Quarter-final,Best of 3,""RCBorsotti's Groupies "",RCB Aksel Viren,""RCBorsotti's Groupies "",21,12,21,16,,,fabia canu,Mattia Pareschi,Tobia Sermenghi,Angela Augello"
+Bracket Stage,Mixed,Bracket A,P9: Quarter-final,Best of 3,I Pesetti,Daje Padova,I Pesetti,15,5,15,4,,,Francesco Mezzetti,Amanda Y. Pesenti,Luca Colzi,teresa leuratti
+"Bracket Stage,Mixed,Bracket A,P9: Quarter-final,Best of 3,Sbam,""POCHESKILLTANTAPASSIONE "",Sbam,15,17,15,6,15,9,Marianne Ferragina,Luca Tosatti,Sofia Tropea,Andrea De valiere"
+Bracket Stage,Mixed,Bracket A,P9: Quarter-final,Best of 3,coco pops,*nome_superfico*,coco pops,15,12,15,12,,,Matteo Molli,francesca falabella,Giuditta Bacchi Reggiani,Davide Greco
+Bracket Stage,Mixed,Bracket A,P9: Quarter-final,Best of 3,RCB Nanen,TFS,RCB Nanen,15,12,15,12,,,Tommaso Marzocchi,Laura Lucchiari,Linda Ruffilli,Vittorio Rossi
+"Bracket Stage,Mixed,Bracket A,Semi-final,Best of 3,No Marty no party,""RCBorsotti's Groupies "",No Marty no party,21,18,21,15,,,Veronica Specchia,Nicola Bazzani,fabia canu,Mattia Pareschi"
+Bracket Stage,Mixed,Bracket A,Semi-final,Best of 3,TBA,Irene e lo straniero,TBA,21,19,21,18,,,Martina Melchionda,Andrea Borsotti,Irene Stranieri,Jacopo Dudine
+Bracket Stage,Mixed,Bracket A,P5: Semi-final,Best of 3,RCB Aksel Viren,Sto giro Picci non mi ha paccato,Sto giro Picci non mi ha paccato,15,13,12,15,13,21,Tobia Sermenghi,Angela Augello,Andrea Piccirillo,Chiara Pernigo
+"Bracket Stage,Mixed,Bracket A,P5: Semi-final,Best of 3,""RCB Chipi Chipi Chapa Chapa Dubi Dubi "",Un sacco di paura,Un sacco di paura,17,21,21,16,19,21,Federico Grazi,Nicole Biondini,Matteo Sacchini,Alessia Del Pioluogo"
+Bracket Stage,Mixed,Bracket A,P9: Semi-final,Best of 3,I Pesetti,RCB Nanen,I Pesetti,15,10,13,15,15,9,Francesco Mezzetti,Amanda Y. Pesenti,Tommaso Marzocchi,Laura Lucchiari
+Bracket Stage,Mixed,Bracket A,P9: Semi-final,Best of 3,Sbam,coco pops,Sbam,15,12,15,12,,,Marianne Ferragina,Luca Tosatti,Matteo Molli,francesca falabella
+Bracket Stage,Mixed,Bracket A,P13: Semi-final,Best of 3,TFS,Daje Padova,TFS,15,10,15,7,,,Linda Ruffilli,Vittorio Rossi,Luca Colzi,teresa leuratti
+"Bracket Stage,Mixed,Bracket A,P13: Semi-final,Best of 3,*nome_superfico*,""POCHESKILLTANTAPASSIONE "",*nome_superfico*,22,20,21,19,,,Giuditta Bacchi Reggiani,Davide Greco,Sofia Tropea,Andrea De valiere"
+Bracket Stage,Mixed,Bracket A,Final,Best of 3,No Marty no party,TBA,No Marty no party,21,17,21,14,,,Veronica Specchia,Nicola Bazzani,Martina Melchionda,Andrea Borsotti
+"Bracket Stage,Mixed,Bracket A,P3: Final,Best of 3,Irene e lo straniero,""RCBorsotti's Groupies "",Irene e lo straniero,21,18,12,21,21,15,Irene Stranieri,Jacopo Dudine,fabia canu,Mattia Pareschi"
+Bracket Stage,Mixed,Bracket A,P5: Final,Best of 3,Sto giro Picci non mi ha paccato,Un sacco di paura,Un sacco di paura,21,16,17,21,18,21,Andrea Piccirillo,Chiara Pernigo,Matteo Sacchini,Alessia Del Pioluogo
+"Bracket Stage,Mixed,Bracket A,P7: Final,Single game,""RCB Chipi Chipi Chapa Chapa Dubi Dubi "",RCB Aksel Viren,""RCB Chipi Chipi Chapa Chapa Dubi Dubi "",21,11,,,,,Federico Grazi,Nicole Biondini,Tobia Sermenghi,Angela Augello"
+Bracket Stage,Mixed,Bracket A,P9: Final,Single game,I Pesetti,Sbam,Sbam,19,21,,,,,Francesco Mezzetti,Amanda Y. Pesenti,Marianne Ferragina,Luca Tosatti
+Bracket Stage,Mixed,Bracket A,P11: Final,Single game,coco pops,RCB Nanen,coco pops,21,15,,,,,Matteo Molli,francesca falabella,Tommaso Marzocchi,Laura Lucchiari
+Bracket Stage,Mixed,Bracket A,P13: Final,Best of 3,TFS,*nome_superfico*,TFS,15,13,15,12,,,Linda Ruffilli,Vittorio Rossi,Giuditta Bacchi Reggiani,Davide Greco
+"Bracket Stage,Mixed,Bracket A,P15: Final,Single game,""POCHESKILLTANTAPASSIONE "",Daje Padova,""POCHESKILLTANTAPASSIONE "",21,12,,,,,Sofia Tropea,Andrea De valiere,Luca Colzi,teresa leuratti"
