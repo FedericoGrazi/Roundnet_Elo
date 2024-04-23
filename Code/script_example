@@ -45,6 +45,8 @@ initval <- initcat[,c(1,6,7)]
 initval <- rbind(initval, c("Women's Contender", 1200,200))
 initval
 
+# save(initval, filename = "YOUR_PATH/init_val.rda")
+
 # RESULTS ####
 
 # Season 2023
