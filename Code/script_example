@@ -1,0 +1,109 @@
+library(PlayerRatings)
+library(readxl)
+library(xlsx)
+library(tidyverse)
+
+source("YOUR_PATH/ranking_function.R")
+
+# ETS 2023
+dataparis <- from_csv_to_glicko("D:/Personal Statistics/rcb/Ranking/data/ETSParis.csv", 2023,04,15)
+dataprague <- from_csv_to_glicko("D:/Personal Statistics/rcb/Ranking/data/ETSPRague23.csv", 2023,05,15)
+datastokc <- from_csv_to_glicko("D:/Personal Statistics/rcb/Ranking/data/ETSStockholm23.csv", 2023,06,3)
+datatoul <- from_csv_to_glicko("D:/Personal Statistics/rcb/Ranking/data/STSTouluse23.csv", 2023,07,3)
+datalondon <- from_csv_to_glicko("D:/Personal Statistics/rcb/Ranking/data/ETSLondon23.csv", 2023,07,15)
+datawien <- from_csv_to_glicko("D:/Personal Statistics/rcb/Ranking/data/ETSVienna23.csv", 2023,08,15)
+datapadua <- from_csv_to_glicko("D:/Personal Statistics/rcb/Ranking/data/ETSPadua23.csv", 2023,09,15)
+
+# ETS 2024
+dataEIM <- from_csv_to_glicko("D:/Personal Statistics/rcb/Ranking/data/EIM23.csv", 2023,12,15)
+databarca <- from_csv_to_glicko("D:/Personal Statistics/rcb/Ranking/data/ETSBarcellona24.csv", 2024,3,31)
+dataetsbo <- from_csv_to_glicko("D:/Personal Statistics/rcb/Ranking/data/ETSBologna24.csv", 2024,4,14)
+
+
+# ## INIT CATEGORIES ####
+
+categories <- unique(c(unique(dataparis$cat),
+                       unique(dataprague$cat),
+                       unique(datastokc$cat),
+                       unique(datatoul$cat),
+                       unique(datalondon$cat),
+                       unique(datawien$cat),
+                       unique(datapadua$cat)))
+
+initcat <- data.frame(categories)
+initcat$women = ifelse(str_detect(initcat$categories, "Wom"),1,0)
+initcat$intermediate = ifelse(str_detect(initcat$categories, "(Adv)|(Int)"),1,0)
+initcat$gold = ifelse(str_detect(initcat$categories, "(Pro)|(Gold)|(Pre)"),1,0)
+initcat$cont = ifelse(str_detect(initcat$categories, "Cont"),1,0)
+
+initcat <- arrange(initcat, women, -gold, -cont,-intermediate)
+initcat$initrats <- c(rep(1600,4), rep(1300,2), rep(1100,5),
+                      rep(1200,1),rep(1200,4),1100)
+initcat$initdev <- c(rep(200,4), rep(250,2), rep(200,5),
+                     100, rep(150,4),100)
+initval <- initcat[,c(1,6,7)]
+initval <- rbind(initval, c("Women's Contender", 1200,200))
+initval
+
+# RESULTS ####
+
+# Season 2023
+rsparis <- glicko_ets(dataparis)
+rsprague <- glicko_ets(dataprague, status = rsparis$ratings)
+rsstokc <- glicko_ets(datastokc, status = rsprague$ratings)
+rstoul <- glicko_ets(datatoul, status = rsstokc$ratings)
+rslondon <- glicko_ets(datalondon, status = rstoul$ratings)
+rswien <- glicko_ets(datawien, status = rslondon$ratings)
+rspadua <- glicko_ets(datapadua, status = rswien$ratings)
+
+# Season 2024
+# Last year Advanced was the only category. It needs to be changed
+initval[which(initval$categories == "Women's Advanced"),2] <- 1000
+initval[which(initval$categories == "Women's Advanced"),3] <- 150
+
+rsEIM <- glicko_ets(dataEIM, status = rspadua$ratings)
+rsBarca <- glicko_ets(databarca, status = rsEIM$ratings)
+rsETSBolo <- glicko_ets(dataetsbo, status = rsBarca$ratings)
+
+
+
+# GLICKO VIZ ####
+
+
+histr = histry_merge(
+  list = list(
+    rsparis$ita$ratings,
+    rsprague$ita$ratings,
+    rstoul$ita$ratings,
+    rswien$ita$ratings,
+    rspadua$ita$ratings,
+    rsEIM$ita$ratings,
+    rsBarca$ita$ratings,
+    rsETSBolo$ita$ratings
+  ),
+  giocatori = rsETSBolo$ratings$giocatore[1:30],
+  nmin =2
+)
+
+
+andamento <- apply(histr[,,"Rating"],2,function(x) ifelse(x == 1350, NA,x))[,-1]
+colnames(andamento) <- c(
+  "ETS PARIS",
+  "ETS PRAGUE",
+  "STS TOLOUSE",
+  "ETS VIENNA",
+  "ETS PADUA",
+  "EIM PRAGUE",
+  "ETS BARCA",
+  "ETS BOLOGNA"
+)
+
+paste(rsETSBolo$ratings[rsETSBolo$ratings$nTourn >4,][1:15,1],collapse = "','")
+# Paste the neames inside c()
+subhistr = histr[c('Andrea Borsotti','riccardo mercadini','Alessandro Zanellato','Nicola Bazzani','Jacopo Dudine','Giacomo Merlin','Matteo Sacchini','Mattia Pareschi','Michele Berlanda','Matteo Molli','Federico Grazi','Luca Tosatti','Daniel Di Fazio','Chiara Pernigo','Dario Filippi'),,]
+
+subhistr[order(subhistr)] 
+
+par(mar = c(5,4,4,13))
+
+plot.ratings(subhistr,lwd = 2 , x= 9.5, y = 1750)
